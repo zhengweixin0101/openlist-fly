@@ -14,7 +14,8 @@ VOLUME ["/opt/openlist/data/"]
 ENV PUID=0 \
     PGID=0 \
     UMASK=022 \
-    RUN_ARIA2=true
+    RUN_ARIA2=true \
+    TZ=Asia/Shanghai
 
 # 暴露端口
 EXPOSE 5244 5245
